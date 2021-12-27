@@ -1,0 +1,120 @@
+#bg {
+    background-color: rgb(62, 73, 177);
+}
+
+#main-navbar {
+    color: white;
+    min-height: 14vh;
+    font-size: 15px;
+}
+
+#authstyle {
+    margin-left: 17%;
+    border-radius: 50%;
+}
+
+#header-text {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+#header-image {
+    margin-top: 30px;
+    margin-top: 30px;
+}
+
+#header-paragraph {
+    font-size: 20px;
+    padding-top: 30px;
+    font-weight: lighter;
+}
+
+#header-h1 {
+    font-size: 60px;
+}
+
+#header-links {
+    position: relative;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+#header-links:hover {
+    color: #021f3b;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: #ffcab1;
+    box-shadow: 0 0 10px #ff8248, 0 0 4px #ff8248, 0 0 80px #ff8248;
+    transition-delay: 0.1s;
+    text-decoration: none;
+    border-radius: 9px;
+}
+
+#header-links:active {
+    font-size: 10px;
+}
+
+#body-link-row {
+    position: relative;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+#body-link-row:hover {
+    color: #021f3b;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: #ffcab1;
+    box-shadow: 0 0 10px #ff8248, 0 0 4px #ff8248, 0 0 80px #ff8248;
+    transition-delay: 0.1s;
+    text-decoration: none;
+    border-radius: 9px;
+}
+
+
+/*good*/
+
+body {
+    font: 100% / 1.414 "Open Sans", "Roboto", arial, sans-serif;
+    background: #e9e9e9;
+}
+
+a,
+[type="submit"] {
+    transition: all .25s ease-in;
+}
+
+
+/* end*/
+
+#logo {}
+
+body {
+    background-color: #ebeff5;
+}
+
+#total-orders {
+    background-color: #4cb4c7;
+}
+
+#orders-delivered {
+    background-color: #7abecc;
+}
+
+#orders-pending {
+    background-color: #7CD1C0;
+}

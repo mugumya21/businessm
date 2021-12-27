@@ -1,0 +1,14 @@
+{% extends 'accounts/base.html' %} {% load static %} {% block content %}
+<link rel="stylesheet" href="{% static 'main.css' %}">
+<div class="container">
+    <div class="row g-0">
+        <div class="col-sm-6 col-md-8" id="header-text">
+            <h1 id="header-h1">Business Management<br>....System....</h1>
+            <p id="header-paragraph">You will register or login to go to the dashboard.<br>Designed in Django by VICY TECH SOLUTIONS</p>
+            <a class="btn" style="color: white; background-color: #fd5e14;" type="submit" id="body-link-row">MORE PROJECTS</a>
+        </div>
+
+        <div class="col-6 col-md-4" id="header-image"><img src="images/in-liquid-slide-2.svg " alt=""></div>
+    </div>
+</div>
+{% endblock content %}
