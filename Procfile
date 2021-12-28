@@ -1,1 +1,1 @@
-web:gunicorn KWETU.wsgi 
+web:gunicorn KWETU.wsgi --log-file -
