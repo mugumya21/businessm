@@ -84,12 +84,12 @@ WSGI_APPLICATION = 'KWETU.wsgi.application'
 
 DATABASES = {
     'default': {
-       # 'ENGINE': 'django.db.backends.sqlite3',
-       # 'NAME': BASE_DIR / 'db.sqlite3',
-        'ENGINE': 'django.db.backends.mysql',
-        'OPTIONS':{
-            'read_default_file':'/Users/Vic/AppData/Local/Programs/Python/Python310/Scripts/BOOKINGSYSTEM/KWETU/KWETU/static/my.cnf'
-        }
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+       # 'ENGINE': 'django.db.backends.mysql',
+       # 'OPTIONS':{
+       #     'read_default_file':'/Users/Vic/AppData/Local/Programs/Python/Python310/Scripts/BOOKINGSYSTEM/KWETU/KWETU/static/my.cnf'
+       # }
     }
 }
 
